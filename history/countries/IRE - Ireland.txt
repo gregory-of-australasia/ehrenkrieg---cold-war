@@ -86,6 +86,14 @@ set_popularities = {
 	national_populist = 5
 }
 
+GBR = {
+	set_autonomy = {
+		target = IRE
+		autonomy_state = kr_autonomous_puppet
+		freedom_level = 0.75
+	}
+}
+
 country_event = { id = ire.2 days = 1 } #Intro event
 country_event = { id = ire.53 days = 15 } #Problems Up North
 country_event = { id = ire.55 days = 113 } #Easter Rising Anniversary
